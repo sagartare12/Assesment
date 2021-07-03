@@ -1,0 +1,43 @@
+
+.main_page{
+    display: flex;
+    flex-direction: column;
+
+    .list{
+        margin: 3% 0 5% 3%;
+        display: flex;
+        align-items: center;
+        color:rgb(46, 166, 170);
+        .symbol{
+            font-size: 30px;
+        }
+    }
+    input{
+        text-decoration: none;
+        margin: 0  10% 5% 12%;
+        font-weight: 700;
+        border: none;
+        padding: 1% 5% 1%  2%;
+        border-radius: 10px;
+    }
+
+    button{
+        margin-left:12%;
+        padding: 0;
+        border: none;
+        background: white;
+        width: 10%;
+        height: 17%;
+        cursor: pointer;
+        font-weight: 800;
+        
+        &:hover{
+            border:2px solid black;         
+        }
+    }
+    .navbar{       
+        width: 79rem;
+        height: 10vh;
+        background-color: white;
+    }
+}
